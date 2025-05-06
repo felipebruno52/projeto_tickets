@@ -98,9 +98,10 @@ python main.py
 
 ### Sugestões para melhoria:
 
-- **Melhoria de interface:** A ideia é criar uma interface visual, para que o usuário consiga interagir com o sistema de forma mais simples e prática, sem precisar usar o console. O objetivo é deixar tudo mais fácil.
-- **Novas funcionalidades:** Podemos incluir opções como "Excluir funcionário", "Visualizar histórico de tickets" ou 
+- **Melhoria de interface:** A ideia é criar uma interface, para que o usuário consiga interagir com o sistema de forma mais simples e prática, sem precisar usar o console. O objetivo é deixar tudo mais fácil.
+- **Novas funcionalidades:** Podemos incluir opções como "Excluir funcionário", "Visualizar histórico de tickets" ou "Gerenciar relatórios por setor"
 - **Suporte para Multiplos formatos:** Atualmente, os relatórios só podem ser exportados em: .XLSX, .CSV e .JSON. Novos formatos, como PDF, poderão ser implementados.
+- **Feedback:** Conto muito com o feedback de vocês para que eu possa melhorar! 
 
 
 
