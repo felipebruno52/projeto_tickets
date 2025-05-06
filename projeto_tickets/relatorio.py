@@ -15,7 +15,7 @@ def gerar_relatorio(data_inicio, data_fim):
     resultados = cursor.fetchall()
 
     total_geral = 0
-    print("\n📊 RELATÓRIO DE TICKETS")
+    print("\nRELATÓRIO DE TICKETS")
     print(f"De {data_inicio} até {data_fim}")
     print("-" * 40)
 
@@ -24,7 +24,7 @@ def gerar_relatorio(data_inicio, data_fim):
         total_geral += linha['total_tickets']
 
     print("-" * 40)
-    print(f"🎯 Total Geral de Tickets: {total_geral}\n")
+    print(f"Total Geral de Tickets: {total_geral}\n")
 
     cursor.close()
     conexao.close()
