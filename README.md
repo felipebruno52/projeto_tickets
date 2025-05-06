@@ -64,6 +64,7 @@ def conectar():
 - **relatorio.py**:
   - `gerar_relatorio(data_inicio, data_fim)` retorna uma lista de dicionários com os totais por funcionário
 - **menu.py:** Interface de comando com as seguintes opções:
+  
     1. Cadastrar funcionário
     2. Editar funcionário
     3. Cadastrar ticket
