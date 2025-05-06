@@ -63,9 +63,7 @@ def menu():
             id_func = int(input("ID do funcionário: "))
             nome = input("Novo nome (ou deixe vazio): ")
             situacao = input("Nova situação (A/I ou deixe vazio): ")
-            editar_funcionario(id_func,
-                               nome if nome else None,
-                               situacao if situacao else None)
+            editar_funcionario(id_func, nome if nome else None, situacao if situacao else None)
 
         elif opcao == '3':
             id_func = int(input("ID do funcionário: "))
@@ -76,9 +74,7 @@ def menu():
             id_ticket = int(input("ID do ticket: "))
             qtd = input("Nova quantidade (ou deixe vazio): ")
             sit = input("Nova situação (A/I ou deixe vazio): ")
-            editar_ticket(id_ticket,
-                          int(qtd) if qtd else None,
-                          sit if sit else None)
+            editar_ticket(id_ticket, int(qtd) if qtd else None, sit if sit else None)
 
         elif opcao == '5':
             data_inicio = input("Data início (YYYY-MM-DD): ")
