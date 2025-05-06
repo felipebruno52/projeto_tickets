@@ -92,6 +92,15 @@ python main.py
       - `3` = JSON (.json)
 
 
+## Notas sobre o projeto
+
+> **Atenção:** Este é um projeto pessoal e está em fase inicial.
+
+### Sugestões para melhoria:
+
+- **Melhoria de interface:** A ideia é criar uma interface visual, para que o usuário consiga interagir com o sistema de forma mais simples e prática, sem precisar usar o console. O objetivo é deixar tudo mais fácil.
+- **Novas funcionalidades:** Podemos incluir opções como "Excluir funcionário", "Visualizar histórico de tickets" ou 
+- **Suporte para Multiplos formatos:** Atualmente, os relatórios só podem ser exportados em: .XLSX, .CSV e .JSON. Novos formatos, como PDF, poderão ser implementados.
 
 
 
