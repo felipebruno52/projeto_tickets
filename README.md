@@ -1,5 +1,5 @@
 # Sistema de Tickets
-Este repositório contém um sistema simples de gerenciamento e relatório de tickets entregues por funcionários. Ele inclui:
+Este repositório contém um sistema simples para gerenciar e gerar relatórios de tickets. Ele inclui:
 
 - Conexão com o banco de dados MySQL (**db.py**)
 - Cadastro e edição de funcionários (**funcionario.py**)
