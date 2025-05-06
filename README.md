@@ -58,7 +58,7 @@ def conectar():
 # Estrutura dos Módulos
 - **db.py**: Implementa a função `conectar()` para criar a conexão com o banco de dados.
 - **funcionario.py:**
-    - `cadastrar_funcionario(none, cpf)`
+    - `cadastrar_funcionario(nome, cpf)`
     - `editar_funcionario(id, novo_nome=None, nova_situacao=None)`
     - `emitir_relatorio_funcionario(...)` (OPCIONAL)
 - **relatorio.py**:
