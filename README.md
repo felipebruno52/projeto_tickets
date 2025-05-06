@@ -1,4 +1,4 @@
-#Sistema de Tickets
+# Sistema de Tickets
 Este repositório contém um sistema simples de gerenciamento e relatório de tickets entregues por funcionários. Ele inclui:
 
 - Conexão com o banco de dados MySQL (**db.py**)
@@ -7,7 +7,7 @@ Este repositório contém um sistema simples de gerenciamento e relatório de ti
 - Geração de relatórios e exportação em Excel, CSV ou JSON (**relatorio.py e menu.py**)
 
 
-#Pré-requisitos
+# Pré-requisitos
 
 - MySQL Server (local ou remoto)
 - Bibliotecas Python necessárias:
@@ -16,7 +16,7 @@ Este repositório contém um sistema simples de gerenciamento e relatório de ti
   pip install mysql-connector-python pandas
   pip install openpyxl
 
-#Configuração do Banco de Dados
+# Configuração do Banco de Dados
 
 **1. Acesse seu console MySQL e execute:**
 
@@ -55,7 +55,7 @@ def conectar():
     )
 ```
 
-#Estrutura dos Módulos
+# Estrutura dos Módulos
 - **db.py**: Implementa a função `conectar()` para criar a conexão com o banco de dados.
 - **funcionario.py:**
     - `cadastrar_funcionario(none, cpf)`
@@ -72,7 +72,7 @@ def conectar():
     6. Sair
 
 
-#Uso
+# Uso
 **1.** Navegue até a pasta do projeto
 ```bash
 cd caminho/para/projeto
